@@ -1,0 +1,82 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(image1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-image: url(image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 2px 2px #058867;
+    padding: 15px;
+}
+header h1{
+    text-align: center;
+}
+section {
+    background-color: #FF0000;
+    padding: 8px;
+    font-size: 20px;
+}
+section ul {
+    list-style: none;
+    padding: 8px;
+}
+
+section ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section ul li a {
+    color: #770a0a;
+    text-decoration: none;
+}
+section ul li a:hover{
+    background-color: aqua;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.kitob {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.kitob img {
+    max-width: 100%;
+    height: auto;
+}
+
+.kitob h3 {
+    margin-top: 10px;
+    text-shadow: 0px 0px 10px rgb(32, 195, 231),
+    0px 0px 10px rgb(32, 195, 231),0px 0px 10px rgb(32, 195, 231);
+    color: rgb(32, 195, 231);
+}
+
+.kitob p {
+    text-shadow: 0px 0px 10px rgb(32, 231, 32),
+                0px 0px 10px rgb(32, 231, 32),0px 0px 10px rgb(32, 231, 32);
+    color: rgb(32, 231, 32);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
